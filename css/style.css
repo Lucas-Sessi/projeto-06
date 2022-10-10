@@ -145,6 +145,81 @@ html, body{
 }
 
 
+            /*  SECTION SOBRE DO SITE  */
+
+
+.container-section-sobre{
+    text-align: center;
+    position: relative;
+}
+
+.imagem-sobre{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px;
+    background-image: url('https://s.zst.com.br/cms-assets/2020/11/perif-ricos.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+}
+.background-sobre{
+    background-color: rgba(20,20,20,0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 400px;
+    z-index: 2;
+}
+
+.text-sobre{
+    margin: 0 auto;
+    position: relative;
+    min-height: 400px;
+    z-index: 3;
+    padding: 20px 4%;
+    width: 100%;
+    max-width: 900px;;
+    color: white;
+}
+.text-sobre h3{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.text-sobre p{
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+
+        /*  SECTION CONTATO  */
+
+
+
+.container-form {
+    width: calc(100% / 2);
+}
+.form-contato{
+    padding: 30px 4% 0 4%;
+}
+.border-input{
+    border: 1px solid black;
+}
+
+#button-enviar{
+    color: white;
+}
+
+.button-submit{
+    margin: 20px 20px;
+}
+
+
 
 @media screen and (max-width: 500px) {
     .icons-socials{
@@ -193,6 +268,28 @@ html, body{
         margin-bottom: 35px;
         border-radius: 25px;
     
+    }
+
+
+    /*  SECTION SOBRE  */
+
+
+    .imagem-sobre,
+    .background-sobre{
+        min-height: 500px;
+    }
+
+    .text-sobre p{
+        font-size: 14px;
+    }
+
+    .text-sobre h3{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .text-sobre{
+        padding: 20px 5%;
     }
 
 }
